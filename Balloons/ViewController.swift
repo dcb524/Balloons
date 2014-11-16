@@ -13,12 +13,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var myLabel: UILabel!
     
     var myBalloons:[Balloon] = []
+    
+    var currentIndex = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         loadBalloons()
-        let initialBalloon = self.myBalloons[99]
+        let initialBalloon = self.myBalloons[0]
         self.myImage.image = initialBalloon.image
         self.myLabel.text = initialBalloon.numberofBalloons
         
@@ -31,12 +33,13 @@ class ViewController: UIViewController {
 
     @IBAction func myNextButtonPressed(sender: UIBarButtonItem) {
         UIView.transitionWithView(self.view, duration: 1, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: {
-            var randIndex: Int
-            randIndex = Int(arc4random_uniform(UInt32(100)))
-            let currentBalloon = self.myBalloons[randIndex]
+    
+            let currentBalloon = self.myBalloons[self.currentIndex]
             
             self.myImage.image = currentBalloon.image
             self.myLabel.text = currentBalloon.numberofBalloons
+            
+            self.currentIndex += 1
             
             }, completion: { (finished: Bool) -> () in
         })
