@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         loadBalloons()
-        let initialBalloon = self.myBalloons[0]
+        let initialBalloon = self.myBalloons[99]
         self.myImage.image = initialBalloon.image
         self.myLabel.text = initialBalloon.numberofBalloons
         
