@@ -19,11 +19,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        loadBalloons()
-        let initialBalloon = self.myBalloons[0]
-        self.myImage.image = initialBalloon.image
-        self.myLabel.text = initialBalloon.numberofBalloons
         
+        loadBalloons()
     }
 
     override func didReceiveMemoryWarning() {

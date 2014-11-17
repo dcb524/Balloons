@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F19404BD-3D25-4F4C-8B7E-B106AD6D0CE0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Balloons</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C2BDD1ADA10EB5F6628A43021E227BAB506BFD88</key>
+		<string>https://github.com/dcb524/Balloons</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Balloons.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C2BDD1ADA10EB5F6628A43021E227BAB506BFD88</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dcb524/Balloons</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C2BDD1ADA10EB5F6628A43021E227BAB506BFD88</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C2BDD1ADA10EB5F6628A43021E227BAB506BFD88</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Balloons</string>
+		</dict>
+	</array>
+</dict>
+</plist>
